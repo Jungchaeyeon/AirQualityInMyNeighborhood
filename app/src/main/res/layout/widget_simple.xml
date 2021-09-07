@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_widget_bg"
+    tools:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:layout_height="50dp"
+    tools:layout_width="110dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/labelTv"
+    android:text="미세먼지"
+    android:visibility="gone"
+    android:textColor="@color/white"
+    tools:visibility="visible"
+    android:textSize="10sp"
+    tools:ignore="HardcodedText,SmallSp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultTv"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:text="🔮"/>
+    <TextView
+        android:id="@+id/gradeLabelTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        tools:text="매우 나쁨"/>
+
+</LinearLayout>
