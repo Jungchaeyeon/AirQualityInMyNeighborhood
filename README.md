@@ -9,7 +9,7 @@
 4. 실시간 대기 정보 보여주기
 5. 위젯 제공
 
-<img src="https://user-images.githubusercontent.com/63052973/132801762-7a47aeb7-4d51-4066-9bc5-1ac7204fcbd9.jpg" width="300" height="500"/>
+<img src="https://user-images.githubusercontent.com/63052973/132801762-7a47aeb7-4d51-4066-9bc5-1ac7204fcbd9.jpg" width="300" height="550"/>
 
 from - fastcampus 윤승용님 강의 참고
 
